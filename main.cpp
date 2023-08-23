@@ -65,7 +65,7 @@ int main(){
         std::cout << "1. Sine" << std::endl;
         std::cout << "2. Cosine" << std::endl;
         std::cout << "3. Tangent" << std::endl;
-        std::cout << "4. Exponent" << std::endl;
+        
         std::cout << "Enter your choice: ";
         std::cin >> op3;
         std::cout << "Enter number: ";
@@ -80,8 +80,6 @@ int main(){
             num += Cos(num3);
         } else if(op3 == 3){
             num += Sin(num3)/Cos(num3);
-        } else if(op == 4){
-            num += Exp(num3);
         } else {
             std::cout << "Invalid entry" << std::endl;
             continue;
@@ -93,8 +91,6 @@ int main(){
             num -= Cos(num3);
         } else if(op3 == 3){
             num -= Sin(num3)/Cos(num3);
-        } else if(op == 4){
-            num -= Exp(num3);
         } else {
             std::cout << "Invalid entry" << std::endl;
             continue;
@@ -107,8 +103,6 @@ int main(){
             num *= Cos(num3);
         } else if(op3 == 3){
             num *= Sin(num3)/Cos(num3);
-        } else if(op == 4){
-            num *= Exp(num3);
         } else {
             std::cout << "Invalid entry" << std::endl;
             continue;
@@ -120,8 +114,6 @@ int main(){
             num /= Cos(num3);
         } else if(op3 == 3){
             num /= Sin(num3)/Cos(num3);
-        } else if(op == 4){
-            num /= Exp(num3);
         } else {
             std::cout << "Invalid entry" << std::endl;
             continue;
