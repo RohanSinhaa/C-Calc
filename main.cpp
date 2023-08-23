@@ -17,16 +17,7 @@ float Cos(float num){
     cosine = 1 - num*num/2 + num*num*num*num/24 - num*num*num*num*num*num/720;
     return cosine;
 }
-float Tan(float num){
-    float tangent;
-    tangent = num + num*num*num/3 + num*num*num*num*num*2/15;
-    return tangent;
-}
-float Exp(float num){
-    float exponent;
-    exponent = 1 + num + num*num/2 + num*num*num/6 + num*num*num*num/24;
-    return exponent;
-}
+
 
 
 
